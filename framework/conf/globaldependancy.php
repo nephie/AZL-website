@@ -1,0 +1,5 @@
+<?php
+
+	$globaldependancy[] = 'myauth';
+
+?>

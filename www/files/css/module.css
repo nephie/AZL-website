@@ -1,0 +1,16 @@
+@CHARSET "ISO-8859-1";
+
+.moduletable {
+	width: 100%;
+}
+
+
+	
+	.modulecontent {
+		padding: 5px;
+		border: 1px solid #99cccc;
+		background-color: #EEEEEE;
+		-moz-border-radius: 15px;
+-webkit-border-radius: 15px;
+		
+	}

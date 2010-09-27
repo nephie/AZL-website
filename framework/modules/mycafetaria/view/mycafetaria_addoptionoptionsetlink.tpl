@@ -1,0 +1,1 @@
+{include file="mygrid.tpl" grid=$optionsets columns="array('Naam' => 'name', 'Type' => 'optionsettypeid')"}

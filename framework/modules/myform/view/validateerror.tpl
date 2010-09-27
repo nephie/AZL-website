@@ -1,0 +1,1 @@
+{if is_array($validateerror)}{foreach name=validateError from=$validateerror item=error}{$error}{if !$smarty.foreach.validateError.last}, {/if}{/foreach}{/if}

@@ -1,0 +1,115 @@
+.menu {
+	width: 200px;
+	color: white;
+	font-weight: bold;
+	overflow: hidden;
+	margin-top: 8px;
+}
+
+	.menu a {
+		color: white;
+		font-weight: bold;
+		display: block;
+		width: 100%;
+		text-decoration: none;
+	}
+	
+	.menu a:hover {
+		text-decoration: none;
+		color: white;
+	}
+
+	.menu .toggler {
+		padding: 5px 5px;
+		padding-left: 25px;
+		width: 100%;
+	} 
+	
+	.menu .toggler_level_1 {
+		background-color: #9FBCC4;
+		margin-top: 2px;
+	}
+	
+	.menu .toggler_level_1 a {
+		color: #3B555F;
+	}
+	
+	.menu .toggler_level_1 a:hover {
+		color: #3B555F;
+	}
+	
+	.menu .toggler .menuline {
+		background-image: url('../images/menu_achtergrond.png');
+		height: 3px;
+		width: 100%;
+	}
+	
+	
+	
+	.menu .last_withoutsub .menuline {
+		display: none;
+	}
+	
+	.menu .toggler_level_3 .menuline {
+		background-image: url('../images/menu_achtergrond.png');
+	}
+	
+	.menu .toggler_level_4 .menuline {
+		background-image: url('../images/menu_achtergrond.png');
+	}
+	
+	.menu .last_last .menuline {
+		background-image: url('../images/menu_achtergrond.png');
+		display: block;
+	}
+	
+	.menu .active {
+		width: 100%;
+		background-image: url('../images/triangle_right_white.png');
+		background-repeat: no-repeat;
+	}
+	
+	.menu .subpage_active {
+		width: 100%;
+	}
+	.menu .toggler_level_1 .menuline {
+		display: none;
+	}
+	
+	
+.hor_menu {
+	
+	padding-left: 10px;
+	color: white;
+	font-weight: bold;
+	
+}
+
+.hor_menu a {
+	color: white;
+	font-weight: bold;
+}
+
+.hor_menu a:hover {
+	color: white;
+}
+
+.hor_menu .hor_menu_span {
+	padding: 0px 5px;
+}
+
+.hor_menu .subpage_active span {
+	border-bottom: 1px solid white;
+}
+
+.hor_menu .active span {
+	border-bottom: 1px solid white;
+}
+
+.hor_menu .subpage_active a:hover {
+	text-decoration: none;
+}
+
+.hor_menu .active a:hover {
+	text-decoration: none;
+}

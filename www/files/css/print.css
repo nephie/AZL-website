@@ -1,0 +1,20 @@
+#topbarleft { display: none;}
+#topbarright { display: none;}
+#first_level_menu { display: none;}
+#leftcol { display: none;}
+#flashcontainer { display: none;}
+.wikisearch { display: none;}
+.wikiedit { display: none;}
+.gridadd { display: none;}
+.gridedit { display: none;}
+.gridfoot { display: none;}
+a { color: black;}
+a:visited { color: black;}
+#errorpane { display: none;}
+#sb-container { display: none;}
+
+table { width: 100%; }
+#rightcol{ width: 100%; }
+.printtable{ border-collapse: collapse; margin-bottom: -150px; }
+.printtable tr td { border: 1px solid black;}
+.printtable tr.printtablehead td, .printtable tr.printtablefoot td  { border: 2px solid black;}

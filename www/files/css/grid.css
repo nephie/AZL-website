@@ -1,0 +1,97 @@
+table.grid {
+	width: 100%;
+	border: 1px solid #678F9B;
+}
+
+table.grid tr td,table.grid tr th {
+	padding: 1px;
+	font-size: 11px;
+}
+
+.grid span {
+	font-size: 11px;
+}
+
+.grid a {
+	font-size: 11px;
+}
+
+table.grid tr.gridhead,table.grid tr.gridfoot, table.grid tr.printgridfoot {
+	
+	 background-image: url("../images/main_background.png");
+	background-repeat: repeat;
+	color: white;
+}
+
+table.grid tr.gridhead th,table.grid tr.gridfoot td {
+	padding: 5px;
+}
+
+table.grid tr.gridrow_B {
+	background-color: #90B0C0;
+}
+
+table.grid tr.gridfoot #jumppage input {
+	width: 80px;
+}
+
+table.grid tr.gridfoot #jumppage .formbuttons input {
+	width: auto;
+}
+
+.gridfoot .formbuttons {
+	display: none;
+}
+
+.gridfoottable {
+	width: 100%;
+}
+
+.gridfoottable tr td {
+	vertical-align: middle;
+}
+
+.gridfoot #prevpage {
+	text-align: left;
+	width: 25%
+}
+
+.gridfoot #jumppage {
+	text-align: center;
+	
+	width: 25%
+}
+
+.gridfoot #search {
+	text-align: center;
+	width: 25%
+}
+
+.gridfoot #nextpage {
+	text-align: right;
+	width: 25%
+}
+
+.gridfoot a {
+	color: white;
+	padding: 1px 5px;
+}
+
+.gridfoot a:hover, .gridhead a:hover {
+	color: white;
+}
+
+.gridrow .links a {
+	padding: 0px 0px;
+}
+
+.gridrow .links {
+	color: #57818d;	
+	font-weight: bold;
+}
+
+.gridextra {
+	border-left: 4px solid #678F9B;
+	padding-left: 10px;
+	margin-bottom: 15px;
+}

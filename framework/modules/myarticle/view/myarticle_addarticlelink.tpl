@@ -1,0 +1,1 @@
+{include file="mygrid.tpl" grid=$grid columns="array('Werktitel' => 'alias', 'Aangemaakt door' => 'authorname', 'Aanmaakdatum' => array('column' => 'creationdate','modifier' => 'date_format:\"%H:%M - %d/%m/%Y\"'))"}

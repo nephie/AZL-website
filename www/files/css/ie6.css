@@ -1,0 +1,77 @@
+#mainarea
+{
+	height: 440px;
+}
+
+#flashcontainer {
+	position: absolute;
+	left: expression( ( 0 + ( ignoreMe2 = document.documentElement.scrollLeft ? document.documentElement.scrollLeft : document.body.scrollLeft ) ) + 'px' );
+	top: expression( ( 0 + ( ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop ) ) + 'px' );
+	
+}
+
+#loadinghorizon {
+	/*\*/position: absolute; top: expression((250 + (ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop)) + 'px'); right: expression((0 + (ignoreMe2 = document.documentElement.scrollLeft ? document.documentElement.scrollLeft : document.body.scrollLeft)) + 'px');/**/ }
+}
+
+.popup {
+	position: absolute;  }
+}
+
+.menu .active  {
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='files/images/triangle_right_white.png', sizingMethod='crop');
+	background-image: none;
+}
+
+	.menu .toggler .menuline {
+		filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='files/images/menu_achtergrond.png', sizingMethod='crop');
+		background-image: none;
+		height: 3px;
+		width: 100%;
+		margin-bottom: -12px;
+	}
+	
+	.menu .last_withoutsub .menuline {
+		display: none;
+	}
+	
+	.menu .toggler_level_3 .menuline {
+		filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='files/images/menu_achtergrond.png', sizingMethod='crop');
+		background-image: none;
+	}
+	
+	.menu .toggler_level_4 .menuline {
+		filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='files/images/menu_achtergrond.png', sizingMethod='crop');
+		background-image: none;
+	}
+	
+	.menu .last_last .menuline {
+		filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='files/images/menu_achtergrond.png', sizingMethod='crop');
+		background-image: none;
+		display: block;
+	}
+	
+	.menu .toggler_level_1 .menuline {
+		display: none;
+	}
+	
+.headerline {
+	height: 3px;
+	width: 100%;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='files/images/headerline.png', sizingMethod='crop');
+	background-image: none;
+	margin-bottom: 15px;
+}
+
+.ie6selectfixer {
+	display:block; 
+	z-index:0; 
+	position:absolute; 
+	height:0; 
+	width:0;
+	border: none;
+}
+
+#flashcontainer .popupDestroy {
+	right: 25px;
+}

@@ -1,0 +1,15 @@
+.headerline {
+	height: 3px;
+	width: 100%;
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='files/images/headerline.png', sizingMethod='crop');
+	background-image: none;
+	margin-bottom: 15px;
+}
+
+html > body .headerline {
+	height: 3px;
+	width: 100%;
+	background-image: url('../images/headerline.png');
+	background-repeat: repeat-x;
+	margin-bottom: 15px;
+}

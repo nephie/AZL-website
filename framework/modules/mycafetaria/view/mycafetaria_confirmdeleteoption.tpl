@@ -1,0 +1,19 @@
+<table>
+	<tr>
+		<td>
+			<strong>Optie:</strong>
+		</td>
+		<td>
+			{$option->getName()}
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<strong>Prijs:</strong>
+		</td>
+		<td>
+			€{$option->getPrice()}
+		</td>
+	</tr>
+</table>
+<br />

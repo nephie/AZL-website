@@ -1,0 +1,135 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	
+	font-family: Arial, Courier, sans-serif;
+	font-size: 12px;
+	line-height: 15px;
+	
+	border: none;
+	text-decoration: none;	
+}
+
+html, body 
+{    
+	margin: 0;
+	padding: 0;
+	
+	font-family: Arial, Courier, sans-serif;
+	font-size: 11px;
+	line-height: 15px;
+	
+    background-image: url("../images/main_background.png");
+	background-repeat: repeat;
+    
+    width: 100%;
+    height: 100%;
+}
+
+a 
+{
+	color: #57818d;	
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover 
+{
+    text-decoration: underline;
+}
+
+table 
+{    
+    margin: 0px;
+    padding: 0px;
+    border-collapse: collapse;
+}
+
+    td , th 
+    {
+        margin: 0px;
+        padding: 0px;
+        font-family: Arial, Courier, sans-serif;
+        font-size: 11pt;
+		vertical-align: top;
+    }
+    
+    th 
+    {   
+        text-align: left;
+		vertical-align: top;
+    }
+    
+.paddingcontainer
+{
+	padding: 5px;
+}    
+    
+
+
+#topbarleft
+{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	
+	height: 100px;
+	width: 667px;
+	
+	background-image: url("../images/topleft.png"); 
+	background-repeat: no-repeat;
+	
+	z-index: 20;
+}
+
+#topbarright
+{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	
+	height: 100px;
+	width: 100%;
+	
+	background-image: url("../images/top_expand.png"); 
+	background-repeat: repeat-x;
+	
+	z-index: 10;
+}
+
+#mainbar
+{
+	position: relative;
+	top: 100px;	
+}
+
+.menu
+{
+	margin: 10px;
+}
+
+#maintable
+{
+	width: 100%;
+}
+
+#maintable #leftcol
+{
+	width: 220px;
+}
+
+#maintable #rightcol
+{
+	width: auto;
+}
+
+#mainarea
+{
+	margin: 10px;
+	margin-bottom: 20px;
+	border: 1px solid black;
+	
+	background-color: #EEEEEE;
+	min-height: 440px;
+}

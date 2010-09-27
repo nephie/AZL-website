@@ -1,0 +1,19 @@
+<table>
+	<tr>
+		<td>
+			<strong>Optiegroup:</strong>
+		</td>
+		<td>
+			{$optionlink->getOptionset()}
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<strong>Type:</strong>
+		</td>
+		<td>
+			{$optionlink->getOptionsettype()}
+		</td>
+	</tr>
+</table>
+<br />

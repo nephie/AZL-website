@@ -1,0 +1,1 @@
+<a href="{pagerequest request=$loginRequest}">Inloggen</a>

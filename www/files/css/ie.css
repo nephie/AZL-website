@@ -1,0 +1,8 @@
+.grid {
+	position: relative;
+}
+
+#addbutton {
+	position: absolute; 
+	right: 5px;
+}

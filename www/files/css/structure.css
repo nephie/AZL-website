@@ -1,0 +1,94 @@
+
+
+#maintable {
+	width: 100%; 
+	height: 100%;
+}
+
+	#topcell {
+		height: 100px;
+	}
+
+	#toptable {
+		width: 100%;
+	}
+	
+		#topleft {
+			background-image: url("../images/topleft.png"); 
+			background-repeat: no-repeat;
+			width: 667px;
+			height: 100px;
+		}
+		
+		#top_expand {
+			background-image: url("../images/top_expand.png"); 
+			background-repeat: repeat-x;
+			height: 100px;
+			width: auto;
+			text-align:right;
+		}
+		
+		#top_expand_content {
+			width: 100%;
+			height: 100%;
+		
+			position: relative;
+			top: 5px;
+			right: 10px;
+		}
+
+	#main {
+		background-image: url("../images/main_background.png");
+		background-repeat: repeat;
+	}
+		
+		#contenttable {
+			width: 100%; 
+			height: 100%;
+			
+		}	
+		
+			#leftcol {
+				width: 200px;
+				padding: 5px;
+				padding-bottom: 15px;
+			}
+			
+			#middlecol {
+				padding: 5px;
+				padding-bottom: 15px;
+			}
+			
+			#rightcol {
+				width: 200px;
+				padding: 5px;
+				padding-bottom: 15px;
+			}
+		
+	#bottom {
+		background-image: url("../images/bottom_background.png"); 
+		background-repeat: repeat;
+		height: 25px;
+	}
+	
+.contentdiv {
+	border: 1px solid #000000;
+	background-color: #00506c;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;	
+}
+
+.contentdiv2{	
+	padding: 15px;
+}
+
+.container {
+	position: relative;
+	height: 100%;
+}
+
+.container  .contentdiv {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}

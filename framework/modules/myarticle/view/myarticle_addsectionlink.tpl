@@ -1,0 +1,1 @@
+{include file="mygrid.tpl" grid=$grid columns="array('Sectie' => 'name')"}

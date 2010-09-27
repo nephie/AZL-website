@@ -1,0 +1,19 @@
+<table>
+	<tr>
+		<td>
+			<strong>Optiegroup:</strong>
+		</td>
+		<td>
+			{$optionset->getName()}
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<strong>Type:</strong>
+		</td>
+		<td>
+			{$optionset->getOptionsettypeid()}
+		</td>
+	</tr>
+</table>
+<br />

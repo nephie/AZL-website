@@ -1,0 +1,1 @@
+U bent aangemeld als {$currentuser->getName()} (<a href="#" onclick="{ajaxrequest request=$logoutRequest}">Afmelden</a>)

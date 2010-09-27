@@ -1,0 +1,2 @@
+{capture assign=type}{php}echo get_class($this->_tpl_vars['field']) . '.tpl';{/php}{/capture}
+<label for="{$field->getId()}"  id="{$field->getId()}_label">{$field->getLabel()}{if $type != "checkboxField.tpl"}:{/if} </label>
